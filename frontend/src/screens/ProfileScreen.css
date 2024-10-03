@@ -1,0 +1,13 @@
+.profile-image-container {
+    display: flex;
+    justify-content: center; /* Center the image */
+    margin-bottom: 20px; /* Add space below the image */
+}
+
+.profile-image {
+    width: 100px; /* Set a width for the image */
+    height: 100px; /* Set a height for the image */
+    border-radius: 50%; /* Make the image round */
+    object-fit: cover; /* Ensure the image covers the circle without distortion */
+    border: 2px solid #007bff; /* Optional: Add a border around the image */
+}
